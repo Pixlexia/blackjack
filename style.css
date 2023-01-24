@@ -1,0 +1,68 @@
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-weight: bold;
+    color: white;
+    background-color: black;
+    padding: 1rem;
+    /* background-image: url(/img/hd-wallpaper-2675322.jpg);
+    background-size: 39rem; */
+}
+
+
+
+
+.mainContainer {
+    background-color: aliceblue;
+    width: 40%;
+    background-image: url(img/poker-1.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 550px;
+    margin-top: 1.9rem;
+    padding-top: 5rem;
+    border-radius: 20px;
+    border-color: black;
+    box-shadow: rgba(255, 223, 78, 0.247) 0px 10px 40px 10px;
+}
+
+.container {
+    flex-direction: column;
+    border-radius: 1rem;
+    margin-top: -4rem;
+    width: 100%;
+    font-size: 20px;
+    /* z-index: 1; */
+}
+
+h1 {
+    color: goldenrod;
+}
+
+#message-el {
+    font-style: italic;
+}
+
+button {
+    color: #5e0a46;
+    width: 150px;
+    background-color: goldenrod;
+    border-color: rgba(255, 255, 255, 0.575);
+    /* font-family: 'Courier New', Courier, monospace; */
+    font-weight: 600;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    border-radius: 2px;
+    margin-bottom: 2px;
+    margin-top: 2px;
+
+}
+
+button:hover {
+    background-color: rgb(233, 181, 48);
+
+}
